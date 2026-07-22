@@ -1,6 +1,41 @@
-01_raw_data/
-02_aligned/
-*.fastq.gz
-*.bam
-*.vcf
+# OS & Jupyter Junk
 .DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+Untitled.ipynb
+
+# 01 - Raw Data
+01_raw_data/*.fastq*
+01_raw_data/*.fq*
+
+# 02 - Trimmed Data
+02_trimmed_data/*
+
+# 03 - Reference Genomes & Indexes
+03_reference/*.fa
+03_reference/*.fasta
+03_reference/*.fna
+03_reference/*.amb
+03_reference/*.ann
+03_reference/*.bwt
+03_reference/*.pac
+03_reference/*.sa
+03_reference/*.fai
+03_reference/*.dict
+
+# 04 - Alignments
+04_alignments/*
+
+# 05 - Variants
+05_variants/*
+
+# 06 - Annotation outputs
+06_annotation/*
+
+# 07 - Reports
+07_reports/*
+
+# Logs & Runtime
+*.log
+.snakemake/
+.nextflow/
