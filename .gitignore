@@ -1,0 +1,6 @@
+01_raw_data/
+02_aligned/
+*.fastq.gz
+*.bam
+*.vcf
+.DS_Store
