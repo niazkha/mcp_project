@@ -1,0 +1,24 @@
+# Raw and processed sequencing data
+00_metadata/
+01_raw_data/
+02_trimmed_data/
+04_alignments/
+05_variants/
+06_annotation/
+07_reports/
+
+# Reference genomes and large indices (uncomment if you want to exclude local references from GitHub)
+# 03_reference/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python and environment caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+build/
+dist/
