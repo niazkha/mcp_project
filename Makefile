@@ -18,3 +18,5 @@ ai:
 clean:
 	@echo "[*] Cleaning temporary files..."
 	rm -rf .snakemake/ temp/
+test-agent:
+	python agents/bio_agent.py 'echo "Makefile and Bio Agent bridge is live!"'
