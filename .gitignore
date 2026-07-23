@@ -19,3 +19,22 @@ work/
 03_reference/*.gz
 03_reference/*.fa
 03_reference/*.fasta
+cat << 'EOF' > .gitignore
+01_raw_data/
+02_trimmed_data/
+03_reference/*.fa
+03_reference/*.fasta
+03_reference/*.gz
+03_reference/*.amb
+03_reference/*.ann
+03_reference/*.bwt
+03_reference/*.fai
+03_reference/*.pac
+03_reference/*.sa
+04_alignments/
+05_variants/
+06_annotation/
+07_reports/
+work/
+.nextflow*
+EOF
